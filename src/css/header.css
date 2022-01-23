@@ -7,7 +7,7 @@
     align-items: center;
     height: 150px;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(47, 157, 198, 1) 50%, transparent)
+    background-image: linear-gradient(to bottom, rgba(47, 157, 198, .8) 70%,transparent);
 }
 
 .header-logo{
@@ -15,6 +15,8 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    transform: scale(0.9);
+    transition: transform 1s ease;
 }
 
 .header-logo img{
@@ -48,7 +50,6 @@
 }
 
 .main-page-pic img{
-    margin-top:70px ;
     height: 800px;
     width: 100%;
     object-fit: cover;
@@ -74,7 +75,7 @@
     .uni-name{
         margin-top: 30px;
         display: block;
-        width: 200px;
+        width: 230px;
         height: 50px;
      }
 
