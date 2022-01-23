@@ -1,0 +1,29 @@
+.departments{
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.departments > *{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.dep-4{
+    border: none;
+}
+
+.departments div img{
+    width: 15vw;
+}
+
+.department-name{
+    margin-top: 20px;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
