@@ -10,4 +10,6 @@ body{
   background-image: url('/public/assets/library.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  overflow: hidden;
 }

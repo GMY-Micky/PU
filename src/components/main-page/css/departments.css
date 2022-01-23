@@ -1,23 +1,21 @@
 .departments{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .departments > *{
     margin: 20px;
     padding: 20px;
     text-align: center;
-    border-right: 1px solid white;
-}
-
-.dep-4{
-    border: none;
+    max-width: 250px;
 }
 
 .departments div img{
-    width: 15vw;
+    max-width: 150px;
 }
 
 .department-name{

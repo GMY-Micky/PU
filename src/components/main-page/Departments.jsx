@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/departments.css"
+import "./css/departments.css"
 
 const Departments = () => {
   return <div className='departments'>
