@@ -27,7 +27,7 @@ const Header = () => {
             textStyle={{ color:"white",fontSize:'3vmax' }}
             startDelay={10}
             cursorColor="white"
-            text="FACULTY OF COMPUTING AND INFORMATION TECHNOLOGY"
+            text="FACULTY OF COMPUTING & INFORMATION TECHNOLOGY"
             typeSpeed={50}
             multiTextDelay={1000}
           /></div>
