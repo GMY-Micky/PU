@@ -1,6 +1,7 @@
 import './App.css';
 import MainPage from './components/main-page/MainPage';
-import Scroll from './components/Scroll';
+import Scroll from './Scroll';
+import Header from "./components/Header"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Scroll/>
+      <Header/>
         <MainPage/>
     </div>
   );

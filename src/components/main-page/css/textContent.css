@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px;
 }
 
 .content-title h2{
@@ -23,4 +24,5 @@
 .content-body p{
     font-size: min(3vmin,20px);
     line-height: 25px ;
+    color: rgb(99, 99, 99);
 }

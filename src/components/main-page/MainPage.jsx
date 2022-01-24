@@ -1,13 +1,17 @@
 import React from 'react';
-import Header from "./Header"
 import Departments from "./Departments"
 import TextContent from './TextContent';
+import MediaBox from './MediaBox';
+import Gallery from './Gallery';
+import MainPagePic from './MainPagePic';
 
 const MainPage = () => {
   return <>
-    <Header />
+    <MainPagePic />
     <Departments />
     <TextContent />
+    <MediaBox />
+    <Gallery />
   </>;
 };
 

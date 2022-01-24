@@ -1,7 +1,5 @@
 import React from 'react';
-import "./css/header.css"
-import TypeWriterEffect from 'react-typewriter-effect';
-
+import "./header.css"
 
 const Header = () => {
   return <div className='page-1'>
@@ -21,16 +19,6 @@ const Header = () => {
           <li className='list-item'><a href='#'>FCIT OFFICES</a></li>
           <li className='list-item'><a href='#'>CONTACT US</a></li>
       </ul></div>
-  </div>
-  <div className='main-page-pic'>
-  <div className="typewriter-text"><TypeWriterEffect
-            textStyle={{ color:"white",fontSize:'3vmax' }}
-            startDelay={10}
-            cursorColor="white"
-            text="FACULTY OF COMPUTING & INFORMATION TECHNOLOGY"
-            typeSpeed={50}
-            multiTextDelay={1000}
-          /></div>
   </div>
   </div>;
 };

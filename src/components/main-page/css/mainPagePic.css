@@ -1,0 +1,17 @@
+.main-page-pic{
+    background-image: url("/public/assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.typewriter-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    text-align: center;
+}

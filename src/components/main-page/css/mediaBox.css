@@ -1,0 +1,16 @@
+.media-box{
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:500px){
+    .twitter-widget, .facebook-widget, .youtube-video{
+        width: 90vw;
+    }
+}
