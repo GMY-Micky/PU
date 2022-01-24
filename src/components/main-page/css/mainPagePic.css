@@ -1,17 +1,23 @@
 .main-page-pic{
-    background-image: url("/public/assets/main.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    position: relative;
     width: 100%;
+    overflow: hidden;
+    z-index: -10;
 }
 
+.main-video video{
+    min-height: 500px;
+}
+
+
 .typewriter-text{
+    position: absolute;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
     height: 100%;
-    margin:auto;
     text-align: center;
+    z-index: 1;
 }
