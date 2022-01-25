@@ -13,3 +13,21 @@ body{
   width: 100vw;
   overflow: hidden;
 }
+
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+
+.redirect-button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(47, 157, 198, 1);
+}
+
+.redirect-button a{
+  font-size: 2rem;
+  padding: 15px;
+  color: white;
+}

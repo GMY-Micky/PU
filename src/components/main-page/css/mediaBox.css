@@ -9,8 +9,18 @@
     overflow: hidden;
 }
 
+.twitter-widget, .facebook-widget, .youtube-video{
+    max-width: 400px;
+}
+
+.youtube-video{
+    width: 400px;
+}
+
 @media screen and (max-width:500px){
     .twitter-widget, .facebook-widget, .youtube-video{
         width: 90vw;
+        overflow: hidden;
     }
+
 }

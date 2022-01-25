@@ -16,6 +16,8 @@
 }
 
 .departments div img{
+    width: 10vw;
+    min-width: 100px;
     max-width: 150px;
 }
 

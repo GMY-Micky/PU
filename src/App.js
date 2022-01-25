@@ -8,12 +8,17 @@ import Footer from './components/Footer';
 function App() {
  
   return (
+   <>
     <div className="App">
       <Scroll/>
-      <Header/>
+      <Header id="redirect"> </Header>
         <MainPage/>
       <Footer/>
+      <div  className="redirect-button">
+      <a href="#redirect"><i className="fas fa-chevron-up"></i></a>
     </div>
+    </div>
+   </>
   );
 }
 
