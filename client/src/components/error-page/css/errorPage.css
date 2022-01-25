@@ -1,0 +1,14 @@
+.error-msg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.error-msg h1 {
+  font-size: 4vmax;
+  font-weight: 500;
+}
