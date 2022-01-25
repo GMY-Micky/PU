@@ -1,25 +1,25 @@
-.main-page-pic{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    z-index: -10;
-    background-color: rgba(0, 0, 0, 0.9);
+.main-page-pic {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: -10;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-.main-video video{
-    min-height: 500px;
-    object-fit: cover;
+.main-video video {
+  min-height: 500px;
+  transform: scale(1.23);
+  object-fit: cover;
 }
 
-.typewriter-text{
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 100%;
-    text-align: center;
-    z-index: 1;
+.typewriter-text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1;
 }
-

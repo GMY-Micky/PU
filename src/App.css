@@ -1,33 +1,12 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-  height: 100vh;
-  background-image: url('/public/assets/lab.jpg');
-  background-repeat: no-repeat;
+body {
+  background-image: url("/public/assets/lab.jpg");
   background-size: cover;
-  width: 100vw;
-  overflow: hidden;
-}
-
-.App{
-  height: 100vh;
-  width: 100vw;
-}
-
-.redirect-button{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: rgba(47, 157, 198, 1);
-}
-
-.redirect-button a{
-  font-size: 2rem;
-  padding: 15px;
-  color: white;
+  background-attachment: fixed;
 }

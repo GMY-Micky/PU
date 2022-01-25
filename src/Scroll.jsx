@@ -1,16 +1,14 @@
-import React ,{useEffect} from 'react';
-import  Scrollbar  from 'smooth-scrollbar';
+import React, { useEffect } from "react";
+import Scrollbar from "smooth-scrollbar";
 
-const options={
-    damping:0.1,
-}
+const options = {
+  damping: 0.1,
+};
 
 const Scroll = () => {
-
-useEffect(()=>{
-   Scrollbar.init(document.body,options)
-
-},[])
+  useEffect(() => {
+    Scrollbar.init(document.body, options);
+  }, []);
   return null;
 };
 
