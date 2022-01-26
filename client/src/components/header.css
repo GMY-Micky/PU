@@ -51,7 +51,7 @@
   border: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
   .header-contents {
     flex-direction: column;
     justify-content: flex-start;

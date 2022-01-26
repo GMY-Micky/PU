@@ -11,3 +11,7 @@ body {
   background-attachment: fixed;
   scroll-behavior: smooth;
 }
+
+.App {
+  height: 100vh;
+}

@@ -3,12 +3,17 @@
   bottom: 20px;
   right: 20px;
   background-color: rgba(47, 157, 198, 1);
-  width: 20px;
-  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .redirect-button a {
-  font-size: 2rem;
+  font-size: 2vmax;
   padding: 15px;
   color: white;
+}
+
+.display {
+  display: none;
 }

@@ -9,10 +9,11 @@ const MainPagePic = () => {
         <div className="typewriter-text">
           <TypeWriterEffect
             textStyle={{
-              color: "rgba(47, 157, 255, 1)",
+              color: "white",
               fontSize: "4vmax",
               fontWeight: "900",
               textAlign: "center",
+              textShadow: "0 0 5px black",
             }}
             startDelay={10}
             cursorColor="rgba(47, 157, 198, 1)"
