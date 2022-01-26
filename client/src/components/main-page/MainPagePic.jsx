@@ -5,13 +5,13 @@ import TypeWriterEffect from "react-typewriter-effect";
 const MainPagePic = () => {
   return (
     <>
-      <div className="main-page-pic" id="1">
+      <div className="main-page-pic">
         <div className="typewriter-text">
           <TypeWriterEffect
             textStyle={{
               color: "white",
               fontSize: "4vmax",
-              fontWeight: "900",
+              fontWeight: "600",
               textAlign: "center",
               textShadow: "0 0 5px black",
             }}

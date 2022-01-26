@@ -10,11 +10,12 @@
 .gallery-title h1 {
   text-align: center;
   font-size: 3vmax;
-  color: rgb(80, 80, 80);
-  font-weight: 800;
-  padding: 15px;
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+  padding: 10px;
   outline: rgb(80, 80, 80) 3px solid;
   margin-top: 50px;
+  border-radius: 5px;
 }
 
 .gallery-items {
@@ -23,6 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-grow: 0;
   gap: 20px;
   padding: 50px;
 }
@@ -30,7 +32,9 @@
 .gallery-items img {
   flex: 30%;
   width: 30%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 700px) {

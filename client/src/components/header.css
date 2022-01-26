@@ -2,7 +2,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 130px;
+  height: 100px;
   width: 100%;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .header-logo {
-  width: 210px;
+  width: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .header-logo img {
-  height: 100px;
+  height: 70px;
   width: auto;
 }
 

@@ -1,28 +1,28 @@
-.main-page-content{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0px;
+.main-page-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
 }
 
-.content-title h2{
-    text-align: center;
-    font-size: 2vmax;
-    color: rgb(80, 80, 80);
-    font-weight: 800;
-    padding:30px;
+.content-title h2 {
+  text-align: center;
+  font-size: 3vmax;
+  color: rgb(80, 80, 80);
+  font-weight: 600;
+  padding: 30px;
 }
 
-.content-body{
- max-width: 1700px;
- width:90%;
- margin: 20px;
+.content-body {
+  max-width: 1700px;
+  width: 90%;
+  margin: 20px;
 }
 
-.content-body p{
-    font-size: min(3vmin,20px);
-    line-height: 25px ;
-    color: rgb(99, 99, 99);
+.content-body p {
+  font-size: min(3vmin, 18px);
+  line-height: 25px;
+  color: rgb(99, 99, 99);
 }
