@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./css/gallery.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
@@ -20,7 +21,12 @@ const Gallery = () => {
       </div>
       <div className="gallery-items">
         {images.map((img, index) => {
-          return <img src={img.image} alt={img.title} />;
+          return (
+            <Link key={index} to={`/gallery/${img._id}`}>
+              {" "}
+              <img src={img.image} alt={img.title} />;
+            </Link>
+          );
         })}
       </div>
     </div>
