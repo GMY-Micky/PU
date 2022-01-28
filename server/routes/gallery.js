@@ -15,7 +15,10 @@ app.get("/:id", async (req, res) => {
 });
 
 app.post("/", async (req, res) => {
-  const image = new GalleryImageModel({ image: req.body.image });
+  const image = new GalleryImageModel({
+    title: req.body.title,
+    image: req.body.image,
+  });
   try {
     await image.save();
     res.send("added to database");

@@ -14,9 +14,7 @@ function App() {
     axios.post("http://localhost:3001/", obj);
 
     setTimeout(() => {
-      axios.get("http://localhost:3001/gallery/").then((response) => {
-        console.log(response.data);
-      });
+      axios.get("http://localhost:3001/gallery/").then((response) => {});
     }, 2000);
   }, []);
 
