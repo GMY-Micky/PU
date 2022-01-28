@@ -1,18 +1,30 @@
-import React from 'react';
-import "./css/gallery.css"
+import React, { useState, useEffect } from "react";
+import "./css/gallery.css";
+import axios from "axios";
 
 const Gallery = () => {
-  return <div className='gallery'>
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      axios.get("http://localhost:3001/gallery/").then((response) => {
+        setImages(response.data);
+      });
+    }, 2000);
+  }, []);
+
+  return (
+    <div className="gallery">
       <div className="gallery-title">
-      <h1>PUCIT GALLERY</h1>
+        <h1>PUCIT GALLERY</h1>
       </div>
-      <div className="gallery-items"><img src="./assets/pu-cad.jpg" alt="PU-CAD" />
-      <img src="./assets/main.jpg" alt="IT department" />
-      <img src="./assets/new-campus-fcit.jpg" alt="FCIT new Campus" />
-      <img src="./assets/lab.jpg" alt="Lab" />
-      <img src="./assets/new-campus-fcit-2.jpg" alt="FCIT new Campus" />
-      <img src="./assets/fcit-new-campus-building.jpg" alt="FCIT new Campus building" /></div>
-  </div>;
+      <div className="gallery-items">
+        {images.map((img, index) => {
+          return <img src={img.image} alt={img.title} />;
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Gallery;
