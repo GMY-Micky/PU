@@ -22,10 +22,11 @@ const Gallery = () => {
       <div className="gallery-items">
         {images.map((img, index) => {
           return (
-            <Link key={index} to={`/gallery/${img._id}`}>
-              {" "}
-              <img src={img.image} alt={img.title} />;
-            </Link>
+            <div className="gallery-item">
+              <Link key={index} to={`/gallery/${img._id}`}>
+                <img src={img.image} alt={img.title} />
+              </Link>
+            </div>
           );
         })}
       </div>
