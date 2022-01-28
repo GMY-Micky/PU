@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import "./css/imagePreview.css";
 
 const ImagePreview = () => {
   const [title, setTitle] = useState("");
@@ -17,9 +18,13 @@ const ImagePreview = () => {
   }, []);
 
   return (
-    <div>
-      <h1>{title}</h1>
-      <img src={image} alt={title} />
+    <div className="image-preview">
+      <div className="preview">
+        <h1>{title}</h1>
+        <div className="image">
+          <img src={image} alt={title} />
+        </div>
+      </div>
     </div>
   );
 };

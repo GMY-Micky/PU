@@ -1,0 +1,20 @@
+.image-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-preview h1 {
+  font-size: 2vmax;
+  font-weight: 600;
+  color: rgb(82, 82, 82);
+  padding: 10px;
+}
+
+.image-preview .image img {
+  object-fit: cover;
+  max-width: 600px;
+  width: 95vw;
+}
