@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setToggle(window.scrollY > 500);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <div className="header">
+    <div className={toggle ? "header solid" : "header gradient"}>
       <div className="header-contents">
         {" "}
         <div className="header-logo">

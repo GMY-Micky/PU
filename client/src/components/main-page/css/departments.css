@@ -1,20 +1,42 @@
 .departments {
-  background-color: rgba(47, 157, 198, 1);
+  background-color: rgba(47, 157, 198, 0.8);
+  padding: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px rgb(73, 157, 170);
+}
+
+.dep-title h2 {
+  text-align: center;
+  font-size: 3vmax;
+  color: white;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.dep-items {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 100px 40px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
 }
 
-.departments > * {
+.dep-items > * {
   margin: 20px;
   padding: 20px;
   text-align: center;
   max-width: 270px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+  transform: scale(0.9);
+  transition: transform 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.departments div:hover {
+  transform: scale(1);
 }
 
 .departments div img {

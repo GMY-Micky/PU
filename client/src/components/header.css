@@ -2,8 +2,21 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 100px;
   width: 100%;
+  z-index: 20;
+  opacity: 1;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, rgba(47, 157, 198), transparent);
+  height: 100px;
+  transition: opacity 250ms ease-in-out;
+}
+
+.solid {
+  background-color: rgba(47, 157, 198, 1);
+  height: 70px;
+  transition: opacity 250ms ease-in-out;
 }
 
 .header-contents {
@@ -11,11 +24,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(47, 157, 198, 0.9) 70%,
-    transparent
-  );
 }
 
 .header-logo {
@@ -52,15 +60,17 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .header {
+    height: 70px;
+  }
   .header-contents {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 100px;
     gap: 5px;
     background-image: linear-gradient(
       to bottom,
-      rgba(47, 157, 198, 0.9) 70%,
+      rgba(47, 157, 198, 0.9),
       transparent
     );
   }
