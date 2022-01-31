@@ -11,7 +11,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className={toggle ? "header solid" : "header gradient"}>
+    <div className={toggle ? "header solid" : "header gradient"} id="redirect">
       <div className="header-contents">
         {" "}
         <div className="header-logo">

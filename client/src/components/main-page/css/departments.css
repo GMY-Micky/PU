@@ -1,16 +1,16 @@
 .departments {
-  background-color: rgba(47, 157, 198, 0.8);
   padding: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   margin-bottom: 20px;
-  box-shadow: 3px 3px 10px rgb(73, 157, 170);
+  box-shadow: 3px 3px 10px rgb(82, 95, 97);
+  background-color: rgba(47, 157, 198, 0.2);
 }
 
 .dep-title h2 {
   text-align: center;
-  font-size: 3vmax;
-  color: white;
+  font-size: max(40px, 3.2vmax);
+  color: rgb(47, 157, 198);
   font-weight: 600;
   padding: 30px;
 }
@@ -29,7 +29,8 @@
   text-align: center;
   max-width: 270px;
   border-radius: 50px;
-  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+  background-color: rgba(47, 157, 198, 0.8);
+  box-shadow: 4px 4px 10px rgb(80, 80, 80);
   transform: scale(0.9);
   transition: transform 250ms ease-in-out;
   cursor: pointer;
@@ -51,4 +52,10 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .departments {
+    padding: 0px;
+  }
 }

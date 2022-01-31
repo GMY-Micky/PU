@@ -5,20 +5,24 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollButton from "./components/ScrollButton";
 import ErrorPage from "./components/error-page/ErrorPage";
+import History from "./components/history/History";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ImagePreview from "./components/image-preview/ImagePreview";
 
 function App() {
   return (
     <>
-      <div className="App" id="redirect">
+      <div className="App">
         <Router>
-          <Header />
+          <div id="redirect">
+            <Header />
+          </div>
           <ScrollButton />
           <Routes>
             <Route exect path="/" element={<MainPage />} />
-            <Route exect path="/gallery/:id" element={<ImagePreview />} />
-            <Route exect path="*" element={<ErrorPage />} />
+            <Route path="/gallery/:id" element={<ImagePreview />} />
+            <Route path="*" element={<ErrorPage />} />
+            <Route path="/fcit-history" element={<History />} />
           </Routes>
           <Footer />
         </Router>
