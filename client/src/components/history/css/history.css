@@ -9,7 +9,7 @@
 
 .history .title h1 {
   color: rgba(47, 157, 198, 1);
-  font-size: max(20px, 3vmax);
+  font-size: max(30px, 3vmax);
 }
 
 .history .body {
@@ -63,14 +63,14 @@
 .history .body .section .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 50px;
   color: rgb(151, 151, 151);
 }
 
 .history .body .section .content .description {
   font-size: max(15px, 1.3vmax);
   padding: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .description::-webkit-scrollbar {
@@ -94,6 +94,7 @@
 
   .history .body .section .content {
     padding: 20px;
+    overflow-y: auto;
   }
 
   .history .body .section .content .description {
