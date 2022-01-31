@@ -10,7 +10,7 @@ const History = () => {
       <div className="body">
         <div className="section section1">
           <div className="img">
-            <img src="" alt="" />
+            <img src="./assets/main.jpg" alt="Main" />
             <div className="img-text">
               <span>A New Beginning</span>
             </div>
@@ -35,7 +35,7 @@ const History = () => {
         </div>
         <div className="section section2">
           <div className="img">
-            <img src="" alt="" />
+            <img src="./assets/lab.jpg" alt="LAB" />
             <div className="img-text">
               {" "}
               <span>The Early Phase</span>
@@ -62,7 +62,7 @@ const History = () => {
         </div>
         <div className="section section3">
           <div className="img">
-            <img src="" alt="" />
+            <img src="./assets/new-campus-fcit.jpg" alt="New Campus FCIT" />
             <div className="img-text">
               <span>development of Academic Programs</span>
             </div>
@@ -100,7 +100,7 @@ const History = () => {
         </div>
         <div className="section section4">
           <div className="img">
-            <img src="" alt="" />
+            <img src="./assets/pu-cad.jpg" alt="CAD" />
             <div className="img-text">
               <span>Infrastructure Development</span>
             </div>
