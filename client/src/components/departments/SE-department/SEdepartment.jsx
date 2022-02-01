@@ -3,258 +3,331 @@ import React from "react";
 const SEdepartment = () => {
   return (
     <div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">DR. MUHAMMAD MURTAZA YOUSAF</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">
+              Chairman Department of Software Engineering
+            </li>
+            <li className="item">Professor</li>
+            <li className="item">
+              PhD Computer Science, University of Innsbruck, Austria, 2008
+            </li>
+            <li className="item">
+              M.Sc Computer Science, PU, 2001 (Gold Medal)
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Computer Networks, Distributed and
+              Parallel Systems, Data Structures, Automata Theory
+            </li>
+            <li className="item">
+              Email: murtaza@pucit.edu.pk, chairman.dse@pucit.edu.pk,
+              chairman.se@pu.edu.pk
+            </li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">FAREED UL HASSAN BAIG</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">
+              Program Coordinator, BS Software Engineering (Old Campus)
+            </li>
+            <li className="item">M.Phil Computer Science , PU, 2008</li>
+            <li className="item">M.Sc Computer Science, PU, 2003</li>
+            <li className="item">B.Sc Computer Science, BZU, 1999</li>
+            <li className="item">
+              Research / Teaching Interests: Object Oriented Design and
+              Programming, Data Structures, Analysis and Design of Algorithms
+            </li>
+            <li className="item">Email: fareed@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">ABDUL KHALIQ</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">PhD Computer Science (in progress)</li>
+            <li className="item">M.Phil Computer Science, PU,2008</li>
+            <li className="item">M.Sc Computer Science, PU,2001</li>
+            <li className="item">PGD Computer Science, PU,1999</li>
+            <li className="item">M.Sc Physics, GCU 1998</li>
+            <li className="item">
+              Research / Teaching Interests: Computer Architecture, Operating
+              System, Computer Networks, Digital Logic Design
+            </li>
+            <li className="item">
+              Email: abdul.khaliq@pucit.edu.pk,abdulkhaliq.pucit@pu.edu.pk
+            </li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">FARHAN AHMAD CH</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">
+              Program Coordinator, BS Software Engineering (New Campus)
+            </li>
+            <li className="item">MS Computer Science, GCU</li>
+            <li className="item">M.Sc Computer Science, PU, 2001</li>
+            <li className="item">PGD Computer Science, PU, 1999</li>
+            <li className="item">Research / Teaching Interests: Databases</li>
+            <li className="item">Email: farhan@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">MUHAMMAD ZIA AFZAL</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">M.Phil Mathematics, PU, 2002</li>
+            <li className="item">M.Sc Mathematics, PU, 1995</li>
+            <li className="item">
+              Research / Teaching Interests: Calculus, Linear Algebra,
+              Differential Equations, Spline Theory
+            </li>
+            <li className="item">Email: zia@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">OMER NAWAZ</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">PhD Computer Science (In progress)</li>
+            <li className="item">MS Computer Science</li>
+            <li className="item">
+              M.Sc Computer Science, International Islamic University,
+              Islamabad, 2003
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Network Programming, Mobile
+              Computing
+            </li>
+            <li className="item">Email: umer.nawaz@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">MUDDASSIRA ARSHAD</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">
+              PhD Computer Science (In progress) PUCIT, University of the
+              Punjab, Lahore
+            </li>
+            <li className="item">
+              MPhil Computer Science PUCIT, University of the Punjab, Lahore
+            </li>
+            <li className="item">MSc. from QAU, in 2001</li>
+            <li className="item">
+              Research / Teaching Interests: Human Computer Interaction,
+              Software Engineering
+            </li>
+            <li className="item">Email: muddassira@pucit.edu.pk</li>
+            <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">AMINA MUSTANSIR</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor</li>
+            <li className="item">
+              PhD Computer Science (In progress) PUCIT, University of the
+              Punjab, Lahore
+            </li>
+            <li className="item">
+              MPhil Computer Science PUCIT, University of the Punjab, Lahore
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Software Engineering, Enterprise
+              Modeling, Object Oriented Analysis and Design
+            </li>
+            <li className="item">Email: amina.mustansir@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">DR. SHUJA-UR-REHMAN BAIG</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor (Adhoc)</li>
+            <li className="item">
+              Ph.D. Computer Architecture, Department of Computer Architecture,
+              Universitat Politècnica de Catalunya, Barcelona, Spain, 2019
+            </li>
+            <li className="item">
+              MS Computer Science, Lahore University of Management Sciences
+              (LUMS), Pakistan and Universität Paderborn, Paderborn, Germany,
+              2010
+            </li>
+            <li className="item">BS Computer Science, PUCIT, Pakistan, 2006</li>
+            <li className="item">
+              Research / Teaching Interests: Big Data, Cloud Computing, Machine
+              Learning.
+            </li>
+            <li className="item">Email: shuja@pucit.edu.pk</li>
+            <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">DR. ARIFA MIRZA</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Assistant Professor (Adhoc)</li>
+            <li className="item">
+              PhD Physics , University of the Punjab, Lahore
+            </li>
+            <li className="item">
+              MPhil Physics University of the Punjab, Lahore (First Position)
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Theoretical Physics, Mathematical
+              Physics, Particle Physics, Astronomy, Electronics,
+              Electrodynamics, Magnetism
+            </li>
+            <li className="item">Email: arifa.mirza@pucit.edu.pk</li>
+            <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">MEHWISH KAYANI</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Lecturer</li>
+            <li className="item">
+              MS Computer Science, Information Technology University (ITU), 2014
+            </li>
+            <li className="item">
+              BS Information Technology (Hons.), PUCIT, 2010
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Software Engineering, Object
+              Oriented Analysis and Design,Software Design and Architecture.
+            </li>
+            <li className="item">Email: mehwish.kayani@pucit.edu.pk</li>
+            <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">SANAM AHMAD</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Lecturer</li>
+            <li className="item">PhD Computer Science PUCIT (in progress)</li>
+            <li className="item">MPhil Computer Science PUCIT (2014)</li>
+            <li className="item">BS(IT) Honors PUCIT (2010)</li>
+            <li className="item">
+              Teaching : Object Oriented Programming, Web Engineering , Database
+              Systems , Network Security
+            </li>
+            <li className="item">
+              Research Interests: Data Science , Business Process Modeling ,
+              Natural Language Processing , Machine Learning , Cloud Computing
+            </li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">MADIHA KHALID</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Lecturer</li>
+            <li className="item">
+              Ph.D. Computer Science (In progress) PUCIT, University of the
+              Punjab, Lahore
+            </li>
+            <li className="item">
+              M.Phil Computer Science, University of the Punjab, Lahore
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Programming Fundamentals, Data
+              Structures and Algorithms, Object-Oriented Programming, Parallel
+              programming, Heterogenous frameworks.
+            </li>
+            <li className="item">Email: madiha.khalid@pucit.edu.pk</li>
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
-          <span className="person-name"></span>
+          <span className="person-name">NATALIA CHAUDHARY</span>
           <img src="" alt="" />
         </div>
         <div className="person-info">
           <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-          </ul>
-        </div>
-      </div>
-      <div className="person-1">
-        <div className="person-name-img">
-          <span className="person-name"></span>
-          <img src="" alt="" />
-        </div>
-        <div className="person-info">
-          <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
+            <li className="item">Lecturer</li>
+            <li className="item">
+              PhD Computer Science (thesis in progress), PUCIT, University of
+              the Punjab, Lahore
+            </li>
+            <li className="item">
+              M.Phil Computer Science, PUCIT, University of the Punjab, 2017
+            </li>
+            <li className="item">
+              BS in Computer Science, Kinnaird College for Women University,
+              2015
+            </li>
+            <li className="item">
+              Research / Teaching Interests: Programming, Databases, Geo-Spatial
+              databases, Data structures, Data management systems
+            </li>
+            <li className="item">Email: natalia.chaudhry@pucit.edu.pk</li>
+            <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
       </div>

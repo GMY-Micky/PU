@@ -8,6 +8,7 @@ import ErrorPage from "./components/error-page/ErrorPage";
 import History from "./components/history/History";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ImagePreview from "./components/image-preview/ImagePreview";
+import CSdepartment from "./components/departments/CS-department/CSdepartment";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
             <Route path="/gallery/:id" element={<ImagePreview />} />
             <Route path="*" element={<ErrorPage />} />
             <Route path="/fcit-history" element={<History />} />
+            <Route
+              path="/department-of-computer-science"
+              element={<CSdepartment />}
+            />
           </Routes>
           <Footer />
         </Router>
