@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
 const gallery = require("./routes/gallery");
+const { eventNames } = require("./models/GallerySchema");
 
 app.use(cors());
 
