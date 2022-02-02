@@ -12,6 +12,9 @@ const Gallery = () => {
         setImages(response.data);
       });
     }, 2000);
+    return () => {
+      setImages([]);
+    };
   }, []);
 
   return (

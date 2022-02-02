@@ -1,8 +1,64 @@
-.cs-department {
+.cs-department,
+.se-department,
+.it-department,
+.ds-department {
   padding: 30px;
   margin-top: 100px;
 }
 
 .person {
-  background-color: ;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(47, 157, 198, 0.2);
+  box-shadow: 3px 3px 10px rgb(82, 95, 97);
+  border-radius: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  height: auto;
+}
+
+.person-name-img {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.person-name-img img {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 300px;
+  padding: 10px;
+}
+
+.person-name {
+  font-size: max(20px, 1.4vmax);
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+  padding: 10px;
+}
+
+.person-info {
+  flex: 75%;
+  padding: 10px;
+}
+
+li {
+  font-size: max(13px, 1.1vmax);
+  line-height: 25px;
+  color: rgb(109, 109, 109);
+}
+li:nth-child(1) {
+  color: rgb(88, 88, 88);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .person {
+    flex-direction: column;
+  }
 }

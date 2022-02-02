@@ -1,12 +1,16 @@
 import React from "react";
+import "../css/departments.css";
 
 const DSdepartment = () => {
   return (
-    <div>
-      <div className="person-1">
+    <div className="ds-department">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. SHAHID MANZOOR</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2021/08/shahid-manzoor-148x150.png"
+            alt="Dr. Shahid Manzoor"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -41,10 +45,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. MUHAMMAD NADEEM MAJEED</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2021/03/nadeemjaed-148x150.png"
+            alt="Dr. Muhammad Nadeem Majeed"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -70,10 +77,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. SYED FAISAL BUKHARI</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2021/05/syed-faisal-bukhari-148x150.png"
+            alt="Dr. Syed Faisal Bukhari"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -96,10 +106,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. KHURRAM SHAHZAD</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/27-khuram-148x150.png"
+            alt="Dr Khurram Shahzad"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -122,10 +135,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. WAHEED IQBAL</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/28-waheed-148x150.png"
+            alt="Dr. Waheed Iqbal"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -144,12 +160,16 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">
             MAJ. (RETD.) DR. MUHAMMAD ARIF BUTT
           </span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/arif-butt-148x150.png"
+            alt="Maj. (Retd.) Dr.
+Muhammad Arif Butt"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -177,27 +197,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
-        <div className="person-name-img">
-          <span className="person-name"></span>
-          <img src="" alt="" />
-        </div>
-        <div className="person-info">
-          <ul>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-            <li className="item"></li>
-          </ul>
-        </div>
-      </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. MUHAMMAD IDREES</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/idrees-148x150.png"
+            alt="Dr. Muhammad Idrees"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -231,10 +237,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">TARIQ MAHMOOD BUTT</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/tariq-but-148x150.png"
+            alt="Tariq Mahmood Butt"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -257,10 +266,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. SYED MUHAMMAD ALI</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/smali-148x150.png"
+            alt="Dr. Syed Muhammad Ali"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -286,10 +298,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. ATHER ASHRAF</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/14-ather-148x150.png"
+            alt="Dr. Ather Ashraf"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -309,10 +324,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">IMRAN JAVED</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/17-imranjaved-148x150.png"
+            alt="Imran Javed"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -331,10 +349,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. ZUBAIR NAWAZ</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/22-znawaz-148x150.png"
+            alt="Dr Zubair Nawaz"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -360,10 +381,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. RUKHSANA KAUSAR</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/04/45-rukhsana-148x150.png"
+            alt="Dr.Rukhsana Kausar"
+          />
         </div>
         <div className="person-info">
           <ul>
@@ -399,10 +423,13 @@ const DSdepartment = () => {
           </ul>
         </div>
       </div>
-      <div className="person-1">
+      <div className="person">
         <div className="person-name-img">
           <span className="person-name">DR. MUHAMMAD ABDULLAH</span>
-          <img src="" alt="" />
+          <img
+            src="https://pucit.edu.pk/wp-content/uploads/2019/10/abdulahs-148x150.png"
+            alt="Dr. Muhammad Abdullah"
+          />
         </div>
         <div className="person-info">
           <ul>

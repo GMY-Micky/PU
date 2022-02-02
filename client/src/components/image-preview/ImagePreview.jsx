@@ -15,6 +15,10 @@ const ImagePreview = () => {
         setImage(response.data.image);
       });
     }, 2000);
+    return () => {
+      setTitle("");
+      setImage("");
+    };
   }, []);
 
   return (
