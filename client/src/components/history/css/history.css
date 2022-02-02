@@ -82,15 +82,6 @@
   scroll-behavior: smooth;
 }
 
-.description::-webkit-scrollbar {
-  display: none;
-}
-
-.description {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 @media screen and (max-width: 1000px) {
   .history .body .section {
     flex-direction: column;
