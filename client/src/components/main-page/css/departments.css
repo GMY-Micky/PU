@@ -24,7 +24,10 @@
   gap: 20px;
 }
 
-.dep-items > * {
+.dep-1,
+.dep-2,
+.dep-3,
+.dep-4 {
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -32,12 +35,15 @@
   border-radius: 50px;
   background-color: rgba(47, 157, 198, 0.8);
   box-shadow: 4px 4px 10px rgb(80, 80, 80);
+  cursor: pointer;
   transform: scale(0.9);
   transition: transform 250ms ease-in-out;
-  cursor: pointer;
 }
 
-.departments div:hover {
+.dep-1:hover,
+.dep-2:hover,
+.dep-3:hover,
+.dep-4:hover {
   transform: scale(1);
 }
 

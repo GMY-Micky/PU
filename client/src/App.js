@@ -9,6 +9,9 @@ import History from "./components/history/History";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ImagePreview from "./components/image-preview/ImagePreview";
 import CSdepartment from "./components/departments/CS-department/CSdepartment";
+import SEdepartment from "./components/departments/SE-department/SEdepartment";
+import ITdepartment from "./components/departments/IT-department/ITdepartment";
+import DSdepartment from "./components/departments/DS-department/DSdepartment";
 
 function App() {
   return (
@@ -27,6 +30,18 @@ function App() {
             <Route
               path="/department-of-computer-science"
               element={<CSdepartment />}
+            />
+            <Route
+              path="/department-of-software-engineering"
+              element={<SEdepartment />}
+            />
+            <Route
+              path="/department-of-information-technology"
+              element={<ITdepartment />}
+            />
+            <Route
+              path="/department-of-data-science"
+              element={<DSdepartment />}
             />
           </Routes>
           <Footer />

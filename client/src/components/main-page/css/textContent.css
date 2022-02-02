@@ -9,7 +9,7 @@
 
 .content-title h2 {
   text-align: center;
-  font-size: 3.2vmax;
+  font-size: max(20px, 3.2vmax);
   color: rgb(47, 157, 198);
   text-shadow: 2px 2px 5px #000000;
   font-weight: 600;
@@ -26,4 +26,10 @@
   font-size: min(3vmin, 18px);
   line-height: 25px;
   color: rgb(99, 99, 99);
+}
+
+@media screen and (max-width: 700px) {
+  .content-title h2 {
+    padding: 10px;
+  }
 }
