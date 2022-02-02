@@ -9,6 +9,7 @@
 
 .history .title h1 {
   color: rgba(47, 157, 198, 1);
+  text-shadow: 2px 2px 4px #000000;
   font-size: max(30px, 3vmax);
 }
 
