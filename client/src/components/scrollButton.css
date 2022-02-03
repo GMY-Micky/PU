@@ -6,12 +6,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 3px;
+  transition: translate 250ms ease-in-out;
+}
+
+.redirect-button:hover {
+  transform: translateY(-10px);
 }
 
 .redirect-button a {
-  font-size: 2vmax;
-  padding: 15px;
+  font-size: 1.5vmax;
+  padding: 10px;
   color: white;
 }
 
