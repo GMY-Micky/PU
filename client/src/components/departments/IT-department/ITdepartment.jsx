@@ -17,7 +17,9 @@ const ITdepartment = () => {
             <li className="item">
               Chairman Department of Information Technology{" "}
             </li>
-            <li className="item">Professor</li>
+            <li className="item">
+              <b>Professor</b>
+            </li>
             <li className="item">
               PhD Computer Science (Vrije University, Amsterdam, The
               Netherlands)
@@ -29,16 +31,19 @@ const ITdepartment = () => {
               PGD Computer Science (University of The Punjab, Pakistan)
             </li>
             <li className="item">
-              Research / Teaching Interests: Computational Modelling, Artificial
-              Intelligence, Data Mining and Machine Learning, Multi-Agent
-              Systems
+              <b>Research / Teaching Interests:</b> Computational Modelling,
+              Artificial Intelligence, Data Mining and Machine Learning,
+              Multi-Agent Systems
             </li>
             <li className="item">
-              Email: swjaffry@pucit.edu.pk, chairman.dit@pucit.edu.pk,
+              <b>Email:</b> swjaffry@pucit.edu.pk, chairman.dit@pucit.edu.pk,
               chairman.dit@pu.edu.pk
             </li>
             <li className="item">
-              Website: http://faculty.pucit.edu.pk/swjaffry/{" "}
+              <b>Website:</b>{" "}
+              <a href="http://faculty.pucit.edu.pk/swjaffry/">
+                http://faculty.pucit.edu.pk/swjaffry/
+              </a>{" "}
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -63,7 +68,9 @@ const ITdepartment = () => {
               MS Software Project Management , NUCES-FAST, 2008
             </li>
             <li className="item">M.Sc Computer Science, PU, 2003</li>
-            <li className="item">Email: kamran.malik@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> kamran.malik@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -94,11 +101,13 @@ const ITdepartment = () => {
               Islamabad
             </li>
             <li className="item">
-              Research / Teaching Interests: Database Systems, Operating
+              <b>Research / Teaching Interests:</b> Database Systems, Operating
               Systems, Data Structures, Digital Logic & Design, Data Cleaning,
               Entity Resolution
             </li>
-            <li className="item">Email: asif@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> asif@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -117,10 +126,12 @@ const ITdepartment = () => {
             <li className="item">M.Phil Computer Science, PU</li>
             <li className="item">M.Sc Computer Science, PU, 2004</li>
             <li className="item">
-              Research / Teaching Interests: Operating Systems, Computer
+              <b>Research / Teaching Interests:</b> Operating Systems, Computer
               Architecture, System Programming
             </li>
-            <li className="item">Email: Adeel.nisar@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> Adeel.nisar@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -139,11 +150,13 @@ const ITdepartment = () => {
             <li className="item">MS Computer Science, FAST-NU, 2004</li>
             <li className="item">BS Computer Science, FAST-NU, 2002</li>
             <li className="item">
-              Research / Teaching Interests: Programming Fundamentals,
+              <b>Research / Teaching Interests:</b> Programming Fundamentals,
               Object-Oriented Programming, Data Structures & Algorithms, Theory
               of Automata, Discrete Mathematics
             </li>
-            <li className="item">Email: ahmad.ghazali@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> ahmad.ghazali@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -169,11 +182,13 @@ const ITdepartment = () => {
               B.S Computer Science, Lahore College for Women University, Lahore
             </li>
             <li className="item">
-              Research / Teaching Interests: Area of Interests: Management
-              Information Systems, Organizational Behavior, Organizational
-              Psychology, Professional Ethics
+              <b>Research / Teaching Interests:</b> Area of Interests:
+              Management Information Systems, Organizational Behavior,
+              Organizational Psychology, Professional Ethics
             </li>
-            <li className="item">Email: sadeeqa@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> sadeeqa@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -197,11 +212,13 @@ const ITdepartment = () => {
               BS in Computer Science, PUCIT, Pakistan, 2007
             </li>
             <li className="item">
-              Research / Teaching Interests: Computer Vision, Pattern
+              <b>Research / Teaching Interests:</b> Computer Vision, Pattern
               Recognition and Machine Learning, Multiple View Geometry, Convex
               Optimization
             </li>
-            <li className="item">Email: kashif.murtaza@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> kashif.murtaza@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -217,11 +234,13 @@ const ITdepartment = () => {
           <ul>
             <li className="item">Assistant Professor</li>
             <li className="item">
-              Research / Teaching Interests: Agent Modeling, Intelligent
+              <b>Research / Teaching Interests:</b> Agent Modeling, Intelligent
               Systems, AI, OOP, OOAD, Software Engineering, SW Architecture
               Pattern, Fundamentals of Programming Languages
             </li>
-            <li className="item">Email: anzar@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> anzar@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -244,10 +263,12 @@ const ITdepartment = () => {
             <li className="item">MS Mathematics, PU, 2008</li>
             <li className="item">BS Mathematics, PU, 2006</li>
             <li className="item">
-              Research / Teaching Interests: Computational Mathematics, Linear
-              Algebra, Calculus, Probability and Statistics
+              <b>Research / Teaching Interests:</b> Computational Mathematics,
+              Linear Algebra, Calculus, Probability and Statistics
             </li>
-            <li className="item">Email: Farsia.hussain@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> Farsia.hussain@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -267,12 +288,14 @@ const ITdepartment = () => {
               of the Punjab, Lahore
             </li>
             <li className="item">
-              Research / Teaching Interests: Ambient Intelligence, Computational
-              Modeling, Data and Text Mining, Information Retrieval, Social
-              Simulation, Enterprise Application Development, Mobile Computing,
-              Computational Modeling, Artificial Intelligence
+              <b>Research / Teaching Interests:</b> Ambient Intelligence,
+              Computational Modeling, Data and Text Mining, Information
+              Retrieval, Social Simulation, Enterprise Application Development,
+              Mobile Computing, Computational Modeling, Artificial Intelligence
             </li>
-            <li className="item">Email: mubasher@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> mubasher@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -303,10 +326,12 @@ const ITdepartment = () => {
               Faisalabad
             </li>
             <li className="item">
-              Research / Teaching Interests: Computer Vision, Image Processing,
-              Machine Learning, Network Programming
+              <b>Research / Teaching Interests:</b> Computer Vision, Image
+              Processing, Machine Learning, Network Programming
             </li>
-            <li className="item">Email: Mfarooq@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> Mfarooq@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -333,10 +358,12 @@ const ITdepartment = () => {
               Islamabad, 2004
             </li>
             <li className="item">
-              Research / Teaching Interests: Programming in C/C++/VC++, Computer
-              Organization
+              <b>Research / Teaching Interests:</b> Programming in C/C++/VC++,
+              Computer Organization
             </li>
-            <li className="item">Email: fakhra@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> fakhra@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -355,10 +382,12 @@ const ITdepartment = () => {
             <li className="item">MPhil Solid State Physics (PU) 2011</li>
             <li className="item">Bsc(hons) Physics (PU) 2009</li>
             <li className="item">
-              Research / Teaching Interests: Theoretical Atomic and Molecular
-              Physics
+              <b>Research / Teaching Interests:</b> Theoretical Atomic and
+              Molecular Physics
             </li>
-            <li className="item">Email: maryam.nawaz@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> maryam.nawaz@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -386,11 +415,13 @@ const ITdepartment = () => {
               Punjab, Pakistan)
             </li>
             <li className="item">
-              Research / Teaching Interests: Data Mining and Machine Learning,
-              Natural Language Understanding and Processing, Artificial
-              Intelligence, Computational Modelling
+              <b>Research / Teaching Interests:</b> Data Mining and Machine
+              Learning, Natural Language Understanding and Processing,
+              Artificial Intelligence, Computational Modelling
             </li>
-            <li className="item">Email: zara.nasar@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> zara.nasar@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>

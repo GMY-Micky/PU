@@ -15,7 +15,9 @@ const DSdepartment = () => {
         <div className="person-info">
           <ul>
             <li className="item">Chairman Department of Data Science</li>
-            <li className="item">Associate Professor</li>
+            <li className="item">
+              <b>Associate Professor</b>
+            </li>
             <li className="item">
               PhD in Bioinformatics, Swedish University of Agricultural Science,
               Uppsala, Sweden
@@ -32,14 +34,14 @@ const DSdepartment = () => {
               B.Sc (Hons), University of Agriculture, Faisalabad, Pakistan
             </li>
             <li className="item">
-              Research / Teaching Interests: Bioinformatics, Comparative
+              <b>Research / Teaching Interests:</b> Bioinformatics, Comparative
               Genomics, Genome Assembly and Annotation, Metagenomics, Biological
               Databases, Correlation network analysis, Microbiome analysis,
               Proteomic, Transcriptomic and Metabolic Pathway analysis, Database
               Systems, Database Administration
             </li>
             <li className="item">
-              Email: chairman.dds@pucit.edu.pk, chairman.dds@pu.edu.pk
+              <b>Email:</b> chairman.dds@pucit.edu.pk, chairman.dds@pu.edu.pk
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -65,13 +67,18 @@ const DSdepartment = () => {
               Technology, Taxila.
             </li>
             <li className="item">
-              Research / Teaching Interests: Communication & Networks, Data
-              Science and Machine learning, Business Intelligence &
+              <b>Research / Teaching Interests:</b> Communication & Networks,
+              Data Science and Machine learning, Business Intelligence &
               Strategy-Making.
             </li>
-            <li className="item">Email: nadeem.majeed@pucit.edu.pk</li>
             <li className="item">
-              Google Meet: https://meet.google.com/jjt-vaxr-rub
+              <b>Email:</b> nadeem.majeed@pucit.edu.pk
+            </li>
+            <li className="item">
+              <b>Google Meet:</b>{" "}
+              <a href="https://meet.google.com/jjt-vaxr-rub">
+                https://meet.google.com/jjt-vaxr-rub
+              </a>
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -99,10 +106,12 @@ const DSdepartment = () => {
             <li className="item">M.Sc., Computer Science, Punjab University</li>
             <li className="item">M.Sc., Statistics, Punjab University</li>
             <li className="item">
-              Research / Teaching Interests: Computer Vision, Image Processing,
-              Machine Learning, and Statistics
+              <b>Research / Teaching Interests:</b> Computer Vision, Image
+              Processing, Machine Learning, and Statistics
             </li>
-            <li className="item">Email: faisal.bukhari@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> faisal.bukhari@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -127,10 +136,12 @@ const DSdepartment = () => {
             </li>
             <li className="item">M.Sc Computer Science, PU, 2004</li>
             <li className="item">
-              Research / Teaching Interests: Data Warehousing, Business Process
-              Management and Academic Social Network
+              <b>Research / Teaching Interests:</b> Data Warehousing, Business
+              Process Management and Academic Social Network
             </li>
-            <li className="item">Email: khurram@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> khurram@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -150,13 +161,20 @@ const DSdepartment = () => {
               PhD Computer Science Asian Institute of Technology, Thailand
             </li>
             <li className="item">
-              Research / Teaching Interests: Cloud Computing, Distributed
+              <b>Research / Teaching Interests:</b> Cloud Computing, Distributed
               Systems, Machine Learning, Data Mining, Mobile and Web Computing,
               Scalable Applications and Architectures, Algorithms Analysis, Data
               Structures, Operating Systems
             </li>
-            <li className="item">Website: http://www.waheediqbal.info/</li>
-            <li className="item">Email: waheed.iqbal@pucit.edu.pk</li>
+            <li className="item">
+              <b>Website:</b>{" "}
+              <a href="http://www.waheediqbal.info/">
+                http://www.waheediqbal.info/
+              </a>
+            </li>
+            <li className="item">
+              <b>Email:</b> waheed.iqbal@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -184,7 +202,7 @@ Muhammad Arif Butt"
             <li className="item">JSC (mil), SI&T, Quetta</li>
             <li className="item">B.Sc PMA, Kakul</li>
             <li className="item">
-              Research / Teaching Interests: OS Kernel and device driver
+              <b>Research / Teaching Interests:</b> OS Kernel and device driver
               development, Fuzzification of OS Kernel Modules, Embedded Systems
               and OS Security
             </li>
@@ -193,7 +211,9 @@ Muhammad Arif Butt"
               Linux, C-Refresher Computer Organization and Assembly Language
               Programming{" "}
             </li>
-            <li className="item">Email: arif@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> arif@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -219,19 +239,30 @@ Muhammad Arif Butt"
             </li>
             <li className="item">M.Sc Physics, PU, 1992</li>
             <li className="item">
-              Research / Teaching Interests: Programming (C++/JAVA/.NET),
+              <b>Research / Teaching Interests:</b> Programming (C++/JAVA/.NET),
               Database Design and Administration, Data Structures, Design and
               Analysis of Algorithms, Theory of Automata.
             </li>
-            <li className="item">Email: idrees@pucit.edu.pk</li>
             <li className="item">
-              Website: https://sites.google.com/site/siridrees/
+              <b>Email:</b> idrees@pucit.edu.pk
             </li>
             <li className="item">
-              YouTube: https://www.youtube.com/c/siridrees
+              <b>Website:</b>{" "}
+              <a href="https://sites.google.com/site/siridrees/">
+                https://sites.google.com/site/siridrees/
+              </a>
             </li>
             <li className="item">
-              Facebook: https://www.facebook.com/sir.idrees/
+              <b>YouTube:</b>{" "}
+              <a href="https://www.youtube.com/c/siridrees">
+                https://www.youtube.com/c/siridrees
+              </a>
+            </li>
+            <li className="item">
+              <b>Facebook:</b>{" "}
+              <a href="https://www.facebook.com/sir.idrees/">
+                https://www.facebook.com/sir.idrees/
+              </a>
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -259,10 +290,12 @@ Muhammad Arif Butt"
               B.Sc Electrical Engineering, UET Lahore, 1992
             </li>
             <li className="item">
-              Research / Teaching Interests: Digital Logic and Design,
+              <b>Research / Teaching Interests:</b> Digital Logic and Design,
               Microprocessors, Computer Architecture, Operating Systems
             </li>
-            <li className="item">Email: tariq.butt@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> tariq.butt@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -290,10 +323,12 @@ Muhammad Arif Butt"
               B.Sc Engineering, University of Engg. & Tech. (UET), Lahore, 2000
             </li>
             <li className="item">
-              Research / Teaching Interests: Machine Learning, Image Processing,
-              Computer Vision
+              <b>Research / Teaching Interests:</b> Machine Learning, Image
+              Processing, Computer Vision
             </li>
-            <li className="item">Email: muhammad.ali@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> muhammad.ali@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -316,10 +351,12 @@ Muhammad Arif Butt"
             <li className="item">B.Sc. Civil Engineering, UET, Lahore, 2000</li>
             <li className="item">M.Sc. GIS, Punjab University, 2003</li>
             <li className="item">
-              Research / Teaching Interests: Geo-Spatial System Design,
+              <b>Research / Teaching Interests:</b> Geo-Spatial System Design,
               Geo-Spatial data bases & Web GIS
             </li>
-            <li className="item">Email: ather@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> ather@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -340,11 +377,13 @@ Muhammad Arif Butt"
             <li className="item">M.Sc Computer Science, PU, 2001</li>
             <li className="item">PGD in Computer Science, PU, 1999</li>
             <li className="item">
-              Research / Teaching Interests: Theory of Formal Languages and
-              Automata, Design and Implementation of Compilers, Programming
+              <b>Research / Teaching Interests:</b> Theory of Formal Languages
+              and Automata, Design and Implementation of Compilers, Programming
               Languages
             </li>
-            <li className="item">Email: Imranj@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> Imranj@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -373,10 +412,12 @@ Muhammad Arif Butt"
               Engineering and Technology, Pakistan, 1997
             </li>
             <li className="item">
-              Research / Teaching Interests: Analysis of Algorithms, Advanced
-              Algorithms, High Performance Computing
+              <b>Research / Teaching Interests:</b> Analysis of Algorithms,
+              Advanced Algorithms, High Performance Computing
             </li>
-            <li className="item">Email: znawaz@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> znawaz@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -409,16 +450,18 @@ Muhammad Arif Butt"
               of the Punjab, Lahore, Pakistan.
             </li>
             <li className="item">
-              Research / Teaching Interests: Modeling and analysis of networks,
-              Switched systems, Hybrid systems, Artificial Intelligence, Neural
-              networks, Differential algebraic equations, Numerics of
-              hyperbolics systems for gas networks,Higher order numerics for
-              modeling via Partial differential equations, Modeling via
-              stochastic differential equations,Probability and algorithms,
+              <b>Research / Teaching Interests:</b> Modeling and analysis of
+              networks, Switched systems, Hybrid systems, Artificial
+              Intelligence, Neural networks, Differential algebraic equations,
+              Numerics of hyperbolics systems for gas networks,Higher order
+              numerics for modeling via Partial differential equations, Modeling
+              via stochastic differential equations,Probability and algorithms,
               Machine learning, Atomisation and controls, Finite element
               analysis software
             </li>
-            <li className="item">Email: rukhsana@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> rukhsana@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -448,10 +491,12 @@ Muhammad Arif Butt"
               Analysis of Algorithms, Computer Architecture, Cloud Computing
             </li>
             <li className="item">
-              Research / Teaching Interests: Cloud Computing, Scalable
+              <b>Research / Teaching Interests:</b> Cloud Computing, Scalable
               Applications, Machine Learning, System Performance Management.
             </li>
-            <li className="item">Email: muhammad.abdullah@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> muhammad.abdullah@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>

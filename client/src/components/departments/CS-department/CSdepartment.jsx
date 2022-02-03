@@ -17,8 +17,12 @@ const CSdepartment = () => {
             <li className="item">
               Dean Faculty of Computing and Information Technology
             </li>
-            <li className="item">Chairman Department of Computer Science</li>
-            <li className="item">Professor </li>
+            <li className="item">
+              <b>Chairman Department of Computer Science</b>
+            </li>
+            <li className="item">
+              <b>Professor</b>
+            </li>
             <li className="item">
               PhD Electrical Engineering and IT, Vienna University of Technology
               Austria, 2008
@@ -26,13 +30,15 @@ const CSdepartment = () => {
             <li className="item">MS Computer Science, LUMS Lahore, 2004</li>
             <li className="item">B.Sc Civil Engineering, UET Taxila, 1998</li>
             <li className="item">
-              Research / Teaching Interests: Internet of Things (IoT),
+              <b>Research / Teaching Interests:</b> Internet of Things (IoT),
               Machine-to-Machine (M2M) Communication, Data-centric Networking,
               and Software Defined Networks (SDNs)
             </li>
-            <li className="item">Research Lab: Modern Networking Lab (MNL) </li>
             <li className="item">
-              Email: Principal@pucit.edu.pk, S.sarwar@pucit.edu.pk,
+              <b>Research Lab:</b> Modern Networking Lab (MNL){" "}
+            </li>
+            <li className="item">
+              <b>Email:</b> Principal@pucit.edu.pk, S.sarwar@pucit.edu.pk,
               chairman.dcs@pucit.edu.pk, chairman.dcs@pu.edu.pk
             </li>
             <li className="item">Curriculum Vitae</li>
@@ -56,10 +62,12 @@ const CSdepartment = () => {
             <li className="item">MS Total Quality Management , PU</li>
             <li className="item">M.Sc Computer Science, PU, 2003</li>
             <li className="item">
-              Research / Teaching Interests: Software Engineering, Software
-              Quality Assurance, Software Project Management
+              <b>Research / Teaching Interests:</b> Software Engineering,
+              Software Quality Assurance, Software Project Management
             </li>
-            <li className="item">Email: ejaz@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> ejaz@pucit.edu.pk
+            </li>
             <li className="item">
               Video Lectures Life Skills and Self Development Software
               Engineering online Lectures Project Management Online Lectures{" "}
@@ -95,11 +103,13 @@ const CSdepartment = () => {
               Faisalabad
             </li>
             <li className="item">
-              Research / Teaching Interests: Graph Theory, Combinatorics, Image
-              and Video Processing, Discrete Mathematics, Theory of Automata and
-              Formal Languages, Multimedia System Design
+              <b>Research / Teaching Interests:</b> Graph Theory, Combinatorics,
+              Image and Video Processing, Discrete Mathematics, Theory of
+              Automata and Formal Languages, Multimedia System Design
             </li>
-            <li className="item">Email: laeeq.aslam@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> laeeq.aslam@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -118,10 +128,12 @@ const CSdepartment = () => {
             <li className="item">MS Computer Science, NUCES-FAST, 2007</li>
             <li className="item">BS Computer Science, PU, 2005</li>
             <li className="item">
-              Research / Teaching Interests: Computer Programming, Software
-              Engineering, Software Quality Assurance
+              <b>Research / Teaching Interests:</b> Computer Programming,
+              Software Engineering, Software Quality Assurance
             </li>
-            <li className="item">Email: tayyaba.tariq@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> tayyaba.tariq@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -140,9 +152,12 @@ const CSdepartment = () => {
             <li className="item">M.Sc Computer Science, PU, 2003</li>
             <li className="item">M.Sc Mathematics, FC College, 2001</li>
             <li className="item">
-              Research / Teaching Interests: Databases, Information Systems
+              <b>Research / Teaching Interests:</b> Databases, Information
+              Systems
             </li>
-            <li className="item">Email: asim@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> asim@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -164,11 +179,13 @@ const CSdepartment = () => {
             <li className="item">M.Sc., Computer Science (LUMS)Pakistan</li>
             <li className="item">B.Sc, Computer Science,PU</li>
             <li className="item">
-              Research / Teaching Interests: Programming Languages and
+              <b>Research / Teaching Interests:</b> Programming Languages and
               Compilers, Protocols and Algorithms for Wireless and Wired
               Networks
             </li>
-            <li className="item">Email: faisal.aslam@gmail.com</li>
+            <li className="item">
+              <b>Email:</b> faisal.aslam@gmail.com
+            </li>
             <li className="item">
               YouTube:
               https://www.youtube.com/channel/UCHVy09494qnRK7Amq7plf7Q/playlists
@@ -195,10 +212,12 @@ const CSdepartment = () => {
             </li>
             <li className="item">MS in Computer Science, COMSATS IIT, 2007</li>
             <li className="item">
-              Research / Teaching Interests: Data Structures and Algorithms,
-              Computer Vision, High Performance Computing
+              <b>Research / Teaching Interests:</b> Data Structures and
+              Algorithms, Computer Vision, High Performance Computing
             </li>
-            <li className="item">Email: saadia.shahzad@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> saadia.shahzad@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -226,11 +245,13 @@ const CSdepartment = () => {
             <li className="item">MA Urdu, PU, 2002</li>
             <li className="item">M.Sc Psychology, PU, 1999</li>
             <li className="item">
-              Research / Teaching Interests: Database systems, Project
+              <b>Research / Teaching Interests:</b> Database systems, Project
               Management, Computer Networks, Software Quality Assurance, Total
               Quality Management
             </li>
-            <li className="item">Email: nfatimaa@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> nfatimaa@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -254,12 +275,17 @@ const CSdepartment = () => {
             <li className="item">M.Sc Computer Science,PU, 2009</li>
             <li className="item">BS in Computer Science, AIOU, 2001</li>
             <li className="item">
-              Research / Teaching Interests: Medical Image Processing, Machine
-              Learning, Pattern Recognition, Data Structures
+              <b>Research / Teaching Interests:</b> Medical Image Processing,
+              Machine Learning, Pattern Recognition, Data Structures
             </li>
-            <li className="item">Email: zobia.suhail@pucit.edu.pk</li>
             <li className="item">
-              YouTube:https://www.youtube.com/channel/UCpjLvIVxqceM9YwAdcjEBBg{" "}
+              <b>Email:</b> zobia.suhail@pucit.edu.pk
+            </li>
+            <li className="item">
+              <b>YouTube:</b>
+              <a href="https://www.youtube.com/channel/UCpjLvIVxqceM9YwAdcjEBBg">
+                https://www.youtube.com/channel/UCpjLvIVxqceM9YwAdcjEBBg
+              </a>{" "}
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -292,13 +318,15 @@ const CSdepartment = () => {
               2004
             </li>
             <li className="item">
-              Research / Teaching Interests: Image Processing, Computer Vision,
-              Analysis of Algorithms
+              <b>Research / Teaching Interests:</b> Image Processing, Computer
+              Vision, Analysis of Algorithms
             </li>
             <li className="item">
-              Research Lab: Image & Vision Computing Lab (ICVL)
+              <b>Research Lab:</b> Image & Vision Computing Lab (ICVL)
             </li>
-            <li className="item">Email:shahid@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b>shahid@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -318,10 +346,12 @@ const CSdepartment = () => {
             <li className="item">M.Phil Computer Science , PU,2010</li>
             <li className="item">BS Information Technology, BZU, 2005</li>
             <li className="item">
-              Research / Teaching Interests: Programming Languages, Computer
-              Vision and Digital Image Processing
+              <b>Research / Teaching Interests:</b> Programming Languages,
+              Computer Vision and Digital Image Processing
             </li>
-            <li className="item">Email: Hassankhan@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> Hassankhan@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -346,10 +376,12 @@ DR. NAZAR KHAN"
             </li>
             <li className="item">B.Sc Computer Science, LUMS</li>
             <li className="item">
-              Research / Teaching Interests: Computer Vision, Image Analysis,
-              Machine Learning
+              <b>Research / Teaching Interests:</b> Computer Vision, Image
+              Analysis, Machine Learning
             </li>
-            <li className="item">Email: nazarkhan@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> nazarkhan@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -369,9 +401,11 @@ DR. NAZAR KHAN"
             <li className="item">MS Computer Science, UMT</li>
             <li className="item">M.Sc Computer Science, PU, 2003</li>
             <li className="item">
-              Research / Teaching Interests: Programming, Data Structures
+              <b>Research / Teaching Interests:</b> Programming, Data Structures
             </li>
-            <li className="item">Email: amateen@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> amateen@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -395,10 +429,13 @@ DR. NAZAR KHAN"
               BS Hons. Computer Science, UCP Lahore, 2005
             </li>
             <li className="item">
-              Research / Teaching Interests: Object Oriented System Design and
-              Implementation, Data Structures and Algorithms, Theory of Automata
+              <b>Research / Teaching Interests:</b> Object Oriented System
+              Design and Implementation, Data Structures and Algorithms, Theory
+              of Automata
             </li>
-            <li className="item">Email: umair.babar@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> umair.babar@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -416,8 +453,8 @@ DR. NAZAR KHAN"
             <li className="item">Assistant Professor</li>
             <li className="item">MS Computer Science LUMS, Lahore</li>
             <li className="item">
-              Research / Teaching Interests: Data Structures and Algorithms,
-              Discrete Mathematics, Object-Oriented Programming
+              <b>Research / Teaching Interests:</b> Data Structures and
+              Algorithms, Discrete Mathematics, Object-Oriented Programming
             </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
@@ -444,14 +481,16 @@ DR. NAZAR KHAN"
               M.Sc. Applied Mathematics, UET Lahore, 2004
             </li>
             <li className="item">
-              Research Interests: Subdivision Schemes, Nonlinear Partial
+              <b>Research Interests:</b> Subdivision Schemes, Nonlinear Partial
               Differential Equations, Theory of Solitons, Numerical Analysis
             </li>
             <li className="item">
-              Teaching: Calculus, Linear Algebra, Differential Equations,
+              <b>Teaching:</b> Calculus, Linear Algebra, Differential Equations,
               Discrete Mathematics
             </li>
-            <li className="item">Email: younis@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> younis@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -479,12 +518,14 @@ DR. NAZAR KHAN"
               Burn Hall College)
             </li>
             <li className="item">
-              Research / Teaching Interests: Research Interests: Literary
+              <b>Research / Teaching Interests:</b> Research Interests: Literary
               Theory, Post-Colonial Literature, Existential Literature, Modern
               Drama, British Poetry, Communication Skills, Business and
               Technical Writing, Research Methodology.
             </li>
-            <li className="item">Email: khadija.mariam@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> khadija.mariam@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>

@@ -17,7 +17,9 @@ const SEdepartment = () => {
             <li className="item">
               Chairman Department of Software Engineering
             </li>
-            <li className="item">Professor</li>
+            <li className="item">
+              <b>Professor</b>
+            </li>
             <li className="item">
               PhD Computer Science, University of Innsbruck, Austria, 2008
             </li>
@@ -25,11 +27,11 @@ const SEdepartment = () => {
               M.Sc Computer Science, PU, 2001 (Gold Medal)
             </li>
             <li className="item">
-              Research / Teaching Interests: Computer Networks, Distributed and
-              Parallel Systems, Data Structures, Automata Theory
+              <b>Research / Teaching Interests:</b> Computer Networks,
+              Distributed and Parallel Systems, Data Structures, Automata Theory
             </li>
             <li className="item">
-              Email: murtaza@pucit.edu.pk, chairman.dse@pucit.edu.pk,
+              <b>Email:</b> murtaza@pucit.edu.pk, chairman.dse@pucit.edu.pk,
               chairman.se@pu.edu.pk
             </li>
           </ul>
@@ -47,16 +49,18 @@ const SEdepartment = () => {
           <ul>
             <li className="item">Assistant Professor</li>
             <li className="item">
-              Program Coordinator, BS Software Engineering (Old Campus)
+              <b> Program Coordinator, BS Software Engineering (Old Campus)</b>
             </li>
             <li className="item">M.Phil Computer Science , PU, 2008</li>
             <li className="item">M.Sc Computer Science, PU, 2003</li>
             <li className="item">B.Sc Computer Science, BZU, 1999</li>
             <li className="item">
-              Research / Teaching Interests: Object Oriented Design and
+              <b>Research / Teaching Interests:</b> Object Oriented Design and
               Programming, Data Structures, Analysis and Design of Algorithms
             </li>
-            <li className="item">Email: fareed@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> fareed@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -77,11 +81,12 @@ const SEdepartment = () => {
             <li className="item">PGD Computer Science, PU,1999</li>
             <li className="item">M.Sc Physics, GCU 1998</li>
             <li className="item">
-              Research / Teaching Interests: Computer Architecture, Operating
-              System, Computer Networks, Digital Logic Design
+              <b>Research / Teaching Interests:</b> Computer Architecture,
+              Operating System, Computer Networks, Digital Logic Design
             </li>
             <li className="item">
-              Email: abdul.khaliq@pucit.edu.pk,abdulkhaliq.pucit@pu.edu.pk
+              <b>Email:</b>{" "}
+              abdul.khaliq@pucit.edu.pk,abdulkhaliq.pucit@pu.edu.pk
             </li>
           </ul>
         </div>
@@ -98,13 +103,17 @@ const SEdepartment = () => {
           <ul>
             <li className="item">Assistant Professor</li>
             <li className="item">
-              Program Coordinator, BS Software Engineering (New Campus)
+              <b>Program Coordinator, BS Software Engineering (New Campus)</b>
             </li>
             <li className="item">MS Computer Science, GCU</li>
             <li className="item">M.Sc Computer Science, PU, 2001</li>
             <li className="item">PGD Computer Science, PU, 1999</li>
-            <li className="item">Research / Teaching Interests: Databases</li>
-            <li className="item">Email: farhan@pucit.edu.pk</li>
+            <li className="item">
+              <b>Research / Teaching Interests:</b> Databases
+            </li>
+            <li className="item">
+              <b>Email:</b> farhan@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -122,10 +131,12 @@ const SEdepartment = () => {
             <li className="item">M.Phil Mathematics, PU, 2002</li>
             <li className="item">M.Sc Mathematics, PU, 1995</li>
             <li className="item">
-              Research / Teaching Interests: Calculus, Linear Algebra,
+              <b>Research / Teaching Interests:</b> Calculus, Linear Algebra,
               Differential Equations, Spline Theory
             </li>
-            <li className="item">Email: zia@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> zia@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -147,10 +158,12 @@ const SEdepartment = () => {
               Islamabad, 2003
             </li>
             <li className="item">
-              Research / Teaching Interests: Network Programming, Mobile
+              <b>Research / Teaching Interests:</b> Network Programming, Mobile
               Computing
             </li>
-            <li className="item">Email: umer.nawaz@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> umer.nawaz@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -174,10 +187,12 @@ const SEdepartment = () => {
             </li>
             <li className="item">MSc. from QAU, in 2001</li>
             <li className="item">
-              Research / Teaching Interests: Human Computer Interaction,
+              <b>Research / Teaching Interests:</b> Human Computer Interaction,
               Software Engineering
             </li>
-            <li className="item">Email: muddassira@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> muddassira@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -201,10 +216,12 @@ const SEdepartment = () => {
               MPhil Computer Science PUCIT, University of the Punjab, Lahore
             </li>
             <li className="item">
-              Research / Teaching Interests: Software Engineering, Enterprise
-              Modeling, Object Oriented Analysis and Design
+              <b>Research / Teaching Interests:</b> Software Engineering,
+              Enterprise Modeling, Object Oriented Analysis and Design
             </li>
-            <li className="item">Email: amina.mustansir@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> amina.mustansir@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -230,10 +247,12 @@ const SEdepartment = () => {
             </li>
             <li className="item">BS Computer Science, PUCIT, Pakistan, 2006</li>
             <li className="item">
-              Research / Teaching Interests: Big Data, Cloud Computing, Machine
-              Learning.
+              <b>Research / Teaching Interests:</b> Big Data, Cloud Computing,
+              Machine Learning.
             </li>
-            <li className="item">Email: shuja@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> shuja@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -256,11 +275,13 @@ const SEdepartment = () => {
               MPhil Physics University of the Punjab, Lahore (First Position)
             </li>
             <li className="item">
-              Research / Teaching Interests: Theoretical Physics, Mathematical
-              Physics, Particle Physics, Astronomy, Electronics,
+              <b>Research / Teaching Interests:</b> Theoretical Physics,
+              Mathematical Physics, Particle Physics, Astronomy, Electronics,
               Electrodynamics, Magnetism
             </li>
-            <li className="item">Email: arifa.mirza@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> arifa.mirza@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -283,10 +304,12 @@ const SEdepartment = () => {
               BS Information Technology (Hons.), PUCIT, 2010
             </li>
             <li className="item">
-              Research / Teaching Interests: Software Engineering, Object
+              <b>Research / Teaching Interests:</b> Software Engineering, Object
               Oriented Analysis and Design,Software Design and Architecture.
             </li>
-            <li className="item">Email: mehwish.kayani@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> mehwish.kayani@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
@@ -306,12 +329,13 @@ const SEdepartment = () => {
             <li className="item">MPhil Computer Science PUCIT (2014)</li>
             <li className="item">BS(IT) Honors PUCIT (2010)</li>
             <li className="item">
-              Teaching : Object Oriented Programming, Web Engineering , Database
-              Systems , Network Security
+              <b>Teaching :</b> Object Oriented Programming, Web Engineering ,
+              Database Systems , Network Security
             </li>
             <li className="item">
-              Research Interests: Data Science , Business Process Modeling ,
-              Natural Language Processing , Machine Learning , Cloud Computing
+              <b>Research Interests:</b> Data Science , Business Process
+              Modeling , Natural Language Processing , Machine Learning , Cloud
+              Computing
             </li>
           </ul>
         </div>
@@ -335,11 +359,13 @@ const SEdepartment = () => {
               M.Phil Computer Science, University of the Punjab, Lahore
             </li>
             <li className="item">
-              Research / Teaching Interests: Programming Fundamentals, Data
-              Structures and Algorithms, Object-Oriented Programming, Parallel
-              programming, Heterogenous frameworks.
+              <b>Research / Teaching Interests:</b> Programming Fundamentals,
+              Data Structures and Algorithms, Object-Oriented Programming,
+              Parallel programming, Heterogenous frameworks.
             </li>
-            <li className="item">Email: madiha.khalid@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> madiha.khalid@pucit.edu.pk
+            </li>
           </ul>
         </div>
       </div>
@@ -366,10 +392,12 @@ const SEdepartment = () => {
               2015
             </li>
             <li className="item">
-              Research / Teaching Interests: Programming, Databases, Geo-Spatial
-              databases, Data structures, Data management systems
+              <b>Research / Teaching Interests:</b> Programming, Databases,
+              Geo-Spatial databases, Data structures, Data management systems
             </li>
-            <li className="item">Email: natalia.chaudhry@pucit.edu.pk</li>
+            <li className="item">
+              <b>Email:</b> natalia.chaudhry@pucit.edu.pk
+            </li>
             <li className="item">Curriculum Vitae</li>
           </ul>
         </div>
