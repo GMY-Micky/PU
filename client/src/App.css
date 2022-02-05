@@ -14,3 +14,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+b {
+  color: rgb(85, 85, 85);
+}

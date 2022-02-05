@@ -4,7 +4,9 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const Gallery = () => {
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState([
+    { _id: "123", image: "nothing to show" },
+  ]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -13,7 +15,7 @@ const Gallery = () => {
       });
     }, 2000);
     return () => {
-      setImages([]);
+      setImages([{ _id: "123", image: "nothing to show" }]);
     };
   }, []);
 

@@ -1,5 +1,6 @@
 .gallery {
   margin-bottom: 10px;
+  box-shadow: -3px -3px 15px rgb(36, 36, 36);
 }
 
 .gallery-title {

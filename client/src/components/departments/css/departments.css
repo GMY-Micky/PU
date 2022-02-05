@@ -49,8 +49,10 @@
 
 li {
   font-size: max(13px, 1.1vmax);
-  line-height: 25px;
+  line-height: 30px;
   color: rgb(109, 109, 109);
+  word-spacing: normal;
+  letter-spacing: 1px;
 }
 li:nth-child(1) {
   color: rgb(88, 88, 88);

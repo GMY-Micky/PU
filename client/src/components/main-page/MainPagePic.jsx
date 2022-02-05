@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./css/mainPagePic.css";
 import TypeWriterEffect from "react-typewriter-effect";
 
 const MainPagePic = () => {
+  useEffect(() => {
+    window.addEventListener("scroll", scroll);
+    return () => {
+      window.removeEventListener("scroll", scroll);
+    };
+  }, []);
+
+  const scroll = () => {
+    const item = document.querySelector(".main-page-pic");
+    item.style.transform = `translateY(${window.scrollY * 0.4}px)`;
+  };
+
   return (
     <div className="main-page-pic">
       <div className="typewriter-text">

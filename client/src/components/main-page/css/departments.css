@@ -1,6 +1,7 @@
 .departments {
   padding: 50px;
   box-shadow: 3px 3px 10px rgb(82, 95, 97);
+  background-color: white;
 }
 
 .dep-title h2 {
